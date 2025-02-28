@@ -1,4 +1,4 @@
-def call(email sender, email receiver){
+def call(string sender,string receiver){
      emailext from:'${sender}',
         to:'${receiver}',
         body: 'Bad news: your build was failed',
