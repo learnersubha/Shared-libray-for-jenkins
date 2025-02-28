@@ -4,6 +4,6 @@ def call(String email){
             subject: "Trivy Scan Results",
             body: "Please find attached the Trivy scan results.",
             attachmentsPattern: "result.json",
-            to: "${email}" 
+            to: '${email}' 
        )
 }
